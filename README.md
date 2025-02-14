@@ -2,6 +2,12 @@
 
 This project fine-tunes a Variational Autoencoder (VAE) to translate grayscale images into RGB images using a pretrained VAE model from Stability AI. The model is trained and evaluated on the CIFAR-10 dataset.
 
+### Test Results
+Below is a sample of the model's performance on the test dataset:
+
+![Test Results](imgs/test_results.png)
+
+
 ## Features
 - Uses a pretrained VAE (`stabilityai/sd-vae-ft-mse`) and fine-tunes it for improved performance
 - Converts CIFAR-10 images to grayscale and reconstructs RGB versions
